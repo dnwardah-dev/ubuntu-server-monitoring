@@ -103,3 +103,18 @@ It can be imported into a compatible Grafana instance and connected to a Prometh
 **Completed — Core monitoring and alerting functionality implemented.**
 
 This project was developed as part of independent learning and practical experience in IT infrastructure, Linux administration, and monitoring systems.
+## Automated Alerting System
+
+The monitoring system uses Grafana Alerting to detect high resource usage and send automated email notifications via Gmail SMTP.
+
+### Configured Alert Rules
+
+![Server Monitoring Alerts](Server%20Monitoring%20Alert.png)
+
+Three alert rules are configured to monitor CPU, RAM, and disk usage.
+
+### CPU Alert Testing Results
+
+![CPU Alert History](cpu-alert-history.png)
+
+The CPU alert was successfully triggered during stress testing, transitioning from Normal to Pending and Alerting before returning to Normal.
