@@ -113,6 +113,13 @@ The monitoring system uses Grafana Alerting to detect high resource usage and se
 
 Three alert rules are configured to monitor CPU, RAM, and disk usage.
 
+### Email Alert Notification
+
+Automated email notifications were successfully delivered
+through Gmail SMTP when Grafana alert conditions were triggered.
+
+![Grafana Email Notification](grafana-email-notification.png)
+
 ### CPU Alert Testing Results
 
 ![CPU Alert History](cpu-alert-history.png)
