@@ -75,7 +75,10 @@ The monitoring and alerting system was tested to verify its functionality.
 After testing, the RAM alert threshold was restored to its original value of 85%.
 
 ## Grafana Dashboard
+### Monitoring Dashboard Screenshots
 
+![Grafana Dashboard Overview 1](Dashboard%20Overview%201.png)
+![Grafana Dashboard Overview 2](Dashboard%20Overview%202.png)
 The exported Grafana dashboard configuration is included in this repository as a JSON file.
 
 It can be imported into a compatible Grafana instance and connected to a Prometheus data source.
